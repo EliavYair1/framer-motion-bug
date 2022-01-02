@@ -14,7 +14,7 @@ export default function Accordian({ active, onClick }) {
 				}}
 				transition={{ duration: 0.5, ease: [0.7, 0, 0.3, 1] }}
 			>
-				<div className="mb-4 h-[50vh] md:h-[70vh] w-full bg-black"></div>
+				<div className="mb-4 h-[70vh] w-full bg-black"></div>
 			</motion.div>
 		</div>
 	)

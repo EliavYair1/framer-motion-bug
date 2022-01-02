@@ -13,7 +13,7 @@ export default function Home() {
 
 			<div className="p-5">
 				<div className="divide-black divide-y border-y border-black">
-					{[...Array(5).keys()].map((index) => (
+					{[...Array(8).keys()].map((index) => (
 						<Accordian
 							key={index}
 							active={index == activeIndex}
